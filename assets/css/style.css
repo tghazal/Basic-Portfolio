@@ -1,0 +1,26 @@
+body{
+background: #000000;
+
+}
+.conainer{
+    width:80%px;
+    background:#ffffff;
+    margin: 0 30 0 30;
+    
+
+}
+header{
+    width:960px;
+    padding:20px;
+    background: #ffffff;
+
+
+}
+h1{
+    background:  #4aaaa5;
+    font:#ffffff;
+   
+}
+ul{
+    display:inline;
+ }
