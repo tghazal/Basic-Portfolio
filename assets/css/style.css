@@ -1,4 +1,5 @@
-body{
+body
+{
 background-image: url(../image/concrete-texture.png);
 background-repeat: repeat;
 font-family: Arial, Helvetica, sans-serif;
@@ -6,11 +7,9 @@ line-height:30px;
 color:#777777;
 font-size:20px;
 font-weight:200;
-
 }
 
 header{
-    
  padding:40px;
  margin-bottom:40px;
  border-bottom: 2px solid #cccccc;
@@ -19,10 +18,10 @@ header{
  text-align:centre;
  color:#ffffff;
  font-family: Georgia, 'Times New Roman', Times, serif;
-   
 }
 
-.centeredDiv{
+.centeredDiv
+{
 width:960px;
 margin:0 auto;
 }
@@ -42,11 +41,13 @@ margin-top:-40px;
    
 }
 
-ul{
+ul
+{
 width:10000px;
 }
 
-ul li {
+ul li
+ {
    
 display:inline-block;
 padding-right:20px;
@@ -54,7 +55,8 @@ border-right:1px solid #cccccc;
 margin-left:10px;
 }
 
-ul li a {
+ul li a 
+{
 color: #777777;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
@@ -62,7 +64,8 @@ text-decoration: none;
 }   
 
 
-section{
+section
+{
 background: #ffffff;
 margin:0 auto;
 width:890px;
@@ -71,36 +74,38 @@ height: 435px;
 padding: 33px;
     
 }
-.portfolio-section{
+
+.portfolio-section
+{
     height: 965px; 
     position: relative;
 }
 
 
-h2{
-
+h2
+{
 color:#4aaaa5;
 font-size :35px;
 font-weight: bold;
 padding:20px;
 font-family:Georgia, 'Times New Roman', Times, serif;
-
 }
 
-#contact{
+#contact
+{
+
     border-right:0px;
 }
 
 
-.myimage{
+.myimage
+{
 float:left;
 margin-right:20px;
 margin-top:5px;
 margin-bottom:5px;
 height:150px;
 width:200px;
-
-
 
 }
 
@@ -149,10 +154,9 @@ figure
     bottom: 20px;
     z-index: 2;
     background: #4aaaa5;
-     padding:20px; 
-     text-align: center;
-     color:#fff;
-    /* width: 230px; */ 
+    padding:20px; 
+    text-align: center;
+    color:#fff;
     width: 230px;
 }
 
@@ -168,13 +172,10 @@ width:100%;
 }
 .portfolio-image
 {
-    /* margin-right:30px;
-    margin-top:30px;
-    margin-bottom:10px; */
-    /* float:left; */
+   
     height:250px;
     width:270px;
-    /* position: relative; */
+   
 }
 
 
