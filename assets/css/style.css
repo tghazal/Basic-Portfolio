@@ -21,14 +21,10 @@ header{
  font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
-footer{
-padding:30px;
-margin-top:114px;
-border-top: 8px solid #4aaaa5;
-border-bottom:6px solid #000000;
-background: #666666;
-width:100%;
 
+.centeredDiv{
+width:960px;
+margin:0 auto;
 }
 
 h1{
@@ -43,40 +39,27 @@ font-size: 30px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 1000;
 margin-top:-40px;
-
    
 }
-h2{
 
-color:#4aaaa5;
-font-size :35px;
-font-weight: bold;
-padding:20px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-
+ul{
+width:10000px;
 }
+
 ul li {
    
 display:inline-block;
 padding-right:20px;
 border-right:1px solid #cccccc;
 margin-left:10px;
- }
- ul li a {
+}
+
+ul li a {
 color: #777777;
 font-family: Arial, Helvetica, sans-serif;
-    
-    
- }
-ul{
-width:10000px;
-}
+text-decoration: none;
 
-
-.centeredDiv{
-width:960px;
-margin:0 auto;
-}
+}   
 
 
 section{
@@ -88,12 +71,35 @@ height: 435px;
 padding: 33px;
     
 }
+.portfolio-section{
+    height: 965px; 
+    position: relative;
+}
+
+
+h2{
+
+color:#4aaaa5;
+font-size :35px;
+font-weight: bold;
+padding:20px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#contact{
+    border-right:0px;
+}
+
 
 .myimage{
 float:left;
 margin-right:20px;
-margin-top:20px;
-margin-bottom:20px;
+margin-top:5px;
+margin-bottom:5px;
+height:150px;
+width:200px;
+
 
 
 }
@@ -102,20 +108,73 @@ p{
 margin:20px;
 }
 
-lable{
+label{
     padding-right:830px;
     padding-top:18px;
 }
-.message-textarea {
+#message-textarea {
     height: 110px;
 }
 textarea{
     width: 890px;
 }
+
 button{
 
- background:  #4aaaa5;
+background:  #4aaaa5;
 color:#ffffff;
 border: 1px solid #ffffff;
 padding:10px 20px 10px 20px ;
 }
+
+hr{
+    align-items:left;
+    width:890px;
+
+}
+
+
+figure
+{
+    position:relative;
+   
+    float: left;
+    width: 270px;
+    margin:20px 30px 30px 0px;
+}
+
+
+.absolute-text{
+    position:absolute;
+    bottom: 20px;
+    z-index: 2;
+    background: #4aaaa5;
+     padding:20px; 
+     text-align: center;
+     color:#fff;
+    /* width: 230px; */ 
+    width: 230px;
+}
+
+
+footer{
+padding:30px;
+margin-top:114px;
+border-top: 8px solid #4aaaa5;
+border-bottom:6px solid #000000;
+background: #666666;
+width:100%;
+
+}
+.portfolio-image
+{
+    /* margin-right:30px;
+    margin-top:30px;
+    margin-bottom:10px; */
+    /* float:left; */
+    height:250px;
+    width:270px;
+    /* position: relative; */
+}
+
+
