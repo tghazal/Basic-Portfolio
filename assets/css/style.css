@@ -70,14 +70,16 @@ background: #ffffff;
 margin:0 auto;
 width:890px;
 border: 1px solid #dddddd;
-height: 435px;
+ height: auto;
 padding: 33px;
+overflow: auto;
+clear:both;
     
 }
 
 .portfolio-section
 {
-    height: 965px; 
+   
     position: relative;
 }
 
